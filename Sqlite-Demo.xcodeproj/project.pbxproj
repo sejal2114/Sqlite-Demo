@@ -13,6 +13,8 @@
 		0623BECB29AD04EE00666345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0623BEC929AD04EE00666345 /* Main.storyboard */; };
 		0623BECD29AD04F200666345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0623BECC29AD04F200666345 /* Assets.xcassets */; };
 		0623BED029AD04F200666345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0623BECE29AD04F200666345 /* LaunchScreen.storyboard */; };
+		0623BED829AD054000666345 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0623BED729AD054000666345 /* Employee.swift */; };
+		0623BEDA29AD056400666345 /* DBhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0623BED929AD056400666345 /* DBhelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0623BECC29AD04F200666345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0623BECF29AD04F200666345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0623BED129AD04F200666345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0623BED729AD054000666345 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		0623BED929AD056400666345 /* DBhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBhelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0623BECC29AD04F200666345 /* Assets.xcassets */,
 				0623BECE29AD04F200666345 /* LaunchScreen.storyboard */,
 				0623BED129AD04F200666345 /* Info.plist */,
+				0623BED729AD054000666345 /* Employee.swift */,
+				0623BED929AD056400666345 /* DBhelper.swift */,
 			);
 			path = "Sqlite-Demo";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0623BEDA29AD056400666345 /* DBhelper.swift in Sources */,
 				0623BEC829AD04EE00666345 /* ViewController.swift in Sources */,
+				0623BED829AD054000666345 /* Employee.swift in Sources */,
 				0623BEC429AD04EE00666345 /* AppDelegate.swift in Sources */,
 				0623BEC629AD04EE00666345 /* SceneDelegate.swift in Sources */,
 			);
